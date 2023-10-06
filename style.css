@@ -1,0 +1,184 @@
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgba(8, 223, 238, 0.555), #bdbec052, #ffffff67);
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #15d6ddf6;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header h1:hover {
+    background-color: linear-gradient(150deg,
+    rgb(0, 0, 0),
+    rgb(22, 51, 84),
+    rgb(0, 0, 0)),
+    linear-gradient(70deg,
+    rgb(22, 51, 84),
+    rgb(22, 51, 84),
+    rgb(0, 0, 0));
+    font-size: 150px;
+    transition: 350ms;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #2f3136;
+    transition: 350ms;
+}
+
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.Foto {
+    display: flex;
+
+    
+    width: 450px;
+    height: 450px;
+    margin-left: 700px;
+    
+   
+    
+}
+img {
+
+    border-radius: 50%;
+
+}
+
+.GitHub {
+    display: flex;
+
+    width: 150px;
+    height: 150px;
+   
+
+}
+#video {
+
+    display: flex;
+object-position: 40%;
+
+    width: 500px;
+    height: 500px;
+  
+   
+    
+
+
+}
+.meio {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .meio2
+ {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ }
